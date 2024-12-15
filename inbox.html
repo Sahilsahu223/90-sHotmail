@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox</title>
+    <link rel="stylesheet" href="style2.css">                         
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search mail">
+        </div>
+        <div class="header-icons">
+            <button style="font-size:24px"><i class="material-icons">settings</i></button>
+            <button style="font-size:24px"><i class="material-icons">person_outline</i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li>Inbox</li>
+                <li>Starred</li>
+                <li>Sent</li>
+
+                <li>Drafts</li>
+
+                <li>Trash</li>
+                <li><a href="index.html" style="text-decoration: none;">Logout</a></li>
+            </ul> 
+        </nav>
+
+        <!-- Email List -->
+        <main class="email-list">
+            <div class="email-header">
+                <h3>Primary</h3>
+            </div>
+
+            <div class="email-row">
+                <div class="email-details">
+                    <input type="checkbox">
+                    <span class="subject">John Doe</span>
+                    <span class="preview">Meeting scheduled for 3 PM tomorrow...</span>
+                </div>
+                <div class="email-time">10:30 AM</div>
+            </div>
+
+            <div class="email-row">
+                <div class="email-details">
+                    <input type="checkbox">
+                    <span class="subject">Jane Smith</span>
+                    <span class="preview">Your package has been delivered...</span>
+                </div>
+                <div class="email-time">9:15 AM</div>
+            </div>
+
+            <div class="email-row">
+                <div class="email-details">
+                    <input type="checkbox">
+                
+                    <span class="subject">GitHub</span>
+                    <span class="preview">New pull request in your repository...</span>
+                </div>
+                <div class="email-time">Yesterday</div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
